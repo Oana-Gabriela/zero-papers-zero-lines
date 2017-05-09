@@ -1,0 +1,40 @@
+<?php
+$jsondata = file_get_contents("fiscal_json.json");
+$json = json_decode($jsondata,true);
+$output ="<ul>";
+foreach ($json['certificat_fiscal'] as $certificat_fiscal) {
+   $output .= "<h1>Certificat Fiscal_".$certificat_fiscal['id']."</h1>";
+   $output .= "<li>Nr:".$certificat_fiscal['nr']."</li>";
+   $output .= "<li>Data eliberarii:".$certificat_fiscal['data_eliberarii']."</li>";
+   $output .= "<li>Nr cerere:".$certificat_fiscal['nr_cerere']."</li>";
+   $output .= "<li>Data:".$certificat_fiscal['data']."</li>";
+   $output .= "<li>Denumire:".$certificat_fiscal['denumirea']."</li>";
+   $output .= "<li>Nume:".$certificat_fiscal['nume']."</li>";
+   $output .= "<li>Prenume:".$certificat_fiscal['prenume']."</li>";
+   $output .= "<li>Domiciliul fiscal:".$certificat_fiscal['domiciliul_fiscal']."</li>";
+   $output .= "<li>Judetul:".$certificat_fiscal['judetul']."</li>";
+   $output .= "<li>Municipiul:".$certificat_fiscal['municipiul']."</li>";
+   $output .= "<li>Strada:".$certificat_fiscal['strada']."</li>";
+   $output .= "<li>Bloc:".$certificat_fiscal['bloc']."</li>";
+   $output .= "<li>Scara:".$certificat_fiscal['scara']."</li>";
+   $output .= "<li>Apartament:".$certificat_fiscal['apartament']."</li>";
+   $output .= "<li>Cod_postal:".$certificat_fiscal['cod_postal']."</li>";
+   $output .= "<li>Obligatii de plata principale:".$certificat_fiscal['obligatii_de_plata_principale']."</li>";
+   $output .= "<li>Obligatii de plata accesorii:".$certificat_fiscal['obligatii_de_plata_accesorii']."</li>";
+   $output .= "<li>Suma de rambursare:".$certificat_fiscal['sume_de_rambursat']."</li>";
+   
+   
+   
+
+
+}
+
+$output .="</ul>";
+echo $output;
+
+
+?>
+
+
+
+

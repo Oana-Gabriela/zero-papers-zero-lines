@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <certificat_fiscal>
+    <id>1</id>
+    <nr>fdsgsg</nr>
+    <data_eliberarii>hsdh</data_eliberarii>
+    <nr_cerere>hsdfds</nr_cerere>
+    <data>shfdhfsh</data>
+    <denumirea>Universitatea din Craiova</denumirea>
+    <nume>Ionescu</nume>
+    <prenume>Maria</prenume>
+    <domiciliul_fiscal>Craiova</domiciliul_fiscal>
+    <judetul>Dolj</judetul>
+    <municipiul>dshhhhhhhhhsdf </municipiul>
+    <strada> shhsf</strada>
+    <bloc>shfffd</bloc>
+    <scara>ghsh</scara>
+    <apartament>gshhggs</apartament>
+    <cod_postal>shsgssh</cod_postal>
+    <obligatii_de_plata_principale>shsgh</obligatii_de_plata_principale>
+    <obligatii_de_plata_accesorii>shgh</obligatii_de_plata_accesorii>
+    <sume_de_rambursat>sghggs</sume_de_rambursat>
+  </certificat_fiscal>
+  <certificat_fiscal>
+    <id>2</id>
+    <nr>fdsgsg</nr>
+    <data_eliberarii>hsdh</data_eliberarii>
+    <nr_cerere>hsdfds</nr_cerere>
+    <data>shfdhfsh</data>
+    <denumirea>Universitatea din Craiova</denumirea>
+    <nume>Ionescu</nume>
+    <prenume>Maria</prenume>
+    <domiciliul_fiscal>Craiova</domiciliul_fiscal>
+    <judetul>Dolj</judetul>
+    <municipiul>dshhhhhhhhhsdf </municipiul>
+    <strada> shhsf</strada>
+    <bloc>shfffd</bloc>
+    <scara>ghsh</scara>
+    <apartament>gshhggs</apartament>
+    <cod_postal>shsgssh</cod_postal>
+    <obligatii_de_plata_principale>shsgh</obligatii_de_plata_principale>
+    <obligatii_de_plata_accesorii>shgh</obligatii_de_plata_accesorii>
+    <sume_de_rambursat>sghggs</sume_de_rambursat>
+  </certificat_fiscal>
+  <certificat_fiscal>
+    <id>3</id>
+    <nr>fdsgsg</nr>
+    <data_eliberarii>hsdh</data_eliberarii>
+    <nr_cerere>hsdfds</nr_cerere>
+    <data>shfdhfsh</data>
+    <denumirea>Universitatea din Craiova</denumirea>
+    <nume>Ionescu</nume>
+    <prenume>Maria</prenume>
+    <domiciliul_fiscal>Craiova</domiciliul_fiscal>
+    <judetul>Dolj</judetul>
+    <municipiul>dshhhhhhhhhsdf </municipiul>
+    <strada> shhsf</strada>
+    <bloc>shfffd</bloc>
+    <scara>ghsh</scara>
+    <apartament>gshhggs</apartament>
+    <cod_postal>shsgssh</cod_postal>
+    <obligatii_de_plata_principale>shsgh</obligatii_de_plata_principale>
+    <obligatii_de_plata_accesorii>shgh</obligatii_de_plata_accesorii>
+    <sume_de_rambursat>sghggs</sume_de_rambursat>
+  </certificat_fiscal>
+</root>

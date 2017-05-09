@@ -1,0 +1,44 @@
+<?php
+$jsondata = file_get_contents("pasaport_json.json");
+$json = json_decode($jsondata,true);
+$output ="<ul>";
+foreach ($json['pasaport'] as $pasaport) {
+   $output .= "<h1>PASAPORT_".$pasaport['id']."</h1>";
+   $output .= "<li>TYPE:".$pasaport['type']."</li>";
+   $output .= "<li>CODE:".$pasaport['code']."</li>";
+   $output .= "<li>SERIE:".$pasaport['serie']."</li>";
+   $output .= "<li>LAST NAME:".$pasaport['last_name']."</li>";
+   $output .= "<li>FIRST NAME:".$pasaport['first_name']."</li>";
+   $output .= "<li>NATIONALITY:".$pasaport['nationality']."</li>";
+   $output .= "<li>DATE OF BIRTH:".$pasaport['date_of_birth']."</li>";
+   $output .= "<li>SEX:".$pasaport['sex']."</li>";
+   $output .= "<li>PLACE OF BIRTH:".$pasaport['place_of_birth']."</li>";
+   $output .= "<li>DATE OF RELEASE:".$pasaport['date_of_release']."</li>";
+   $output .= "<li>DATE OF EXPIRATION:".$pasaport['date_of_expiration']."</li>";
+   $output .= "<li>AUTHORITY:".$pasaport['authority']."</li>";
+   $output .= "<li>SEMNATURE:".$pasaport['semnature']."</li>";
+   $output .= "<li>HEIGHT:".$pasaport['height']."</li>";
+   $output .= "<li>EYES:".$pasaport['eyes']."</li>";
+   $output .= "<li>ADRESS:".$pasaport['adress']."</li>";
+   $output .= "<li>DATE:".$pasaport['date']."</li>";
+   
+
+
+}
+
+$output .="</ul>";
+echo $output;
+
+
+?>
+
+
+
+
+
+
+
+
+
+
+

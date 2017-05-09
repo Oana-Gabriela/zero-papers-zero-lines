@@ -1,0 +1,34 @@
+<?php
+
+$xml = simplexml_load_file('fiscal_xml.xml');
+echo "<table>";
+echo "<br>";
+foreach ($xml->children() as $certificat_fiscal) {
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "ID"; echo ":"; echo "</b>"; echo $certificat_fiscal->id; echo "</td>";"<br>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "NR"; echo ":"; echo "</b>"; echo $certificat_fiscal->nr; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "DATA ELIBERARII"; echo ":"; echo "</b>"; echo $certificat_fiscal->data_eliberarii; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "NR CERERE"; echo ":"; echo "</b>"; echo $certificat_fiscal->nr_cerere; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "DATA"; echo ":"; echo "</b>"; echo $certificat_fiscal->data; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "DENUMIREA"; echo ":"; echo "</b>"; echo $certificat_fiscal->denumirea; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "NUME"; echo ":"; echo "</b>"; echo $certificat_fiscal->nume; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "PRENUME"; echo ":"; echo "</b>"; echo $certificat_fiscal->prenume; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "DOMICILIUL FISCAL"; echo ":"; echo "</b>"; echo $certificat_fiscal->domiciliul_fiscal; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "JUDETUL"; echo ":"; echo "</b>"; echo $certificat_fiscal->judetul; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "MUNICIPIUL"; echo ":"; echo "</b>"; echo $certificat_fiscal->municipiul; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "STRADA"; echo ":"; echo "</b>"; echo $certificat_fiscal->strada; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "BLOC"; echo ":"; echo "</b>"; echo $certificat_fiscal->bloc; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "SCARA"; echo ":"; echo "</b>"; echo $certificat_fiscal->scara; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "APARTAMENT"; echo ":"; echo "</b>"; echo $certificat_fiscal->apartament; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "COD POSTAL"; echo ":"; echo "</b>"; echo $certificat_fiscal->cod_postal; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "OBLIGATII DE PLATA PRINCIPALE"; echo ":"; echo "</b>"; echo $certificat_fiscal->obligatii_de_plata_principale; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "OBLIGATII DE PLATA ACCESORII"; echo ":"; echo "</b>"; echo $certificat_fiscal->obligatii_de_plata_accesorii; echo "</td>"; 
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "SUME DE RAMBURSAT"; echo ":"; echo "</b>"; echo $certificat_fiscal->sume_de_rambursat; echo "</td>";
+	
+
+}
+
+
+echo "</tr>"; 
+echo "</table>";
+
+?>

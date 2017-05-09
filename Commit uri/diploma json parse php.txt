@@ -1,0 +1,41 @@
+<?php
+$jsondata = file_get_contents("diploma_json.json");
+$json = json_decode($jsondata,true);
+$output ="<ul>";
+foreach ($json['diploma_de_licenta'] as $diploma_de_licenta) {
+	$output .= "<h1>".$diploma_de_licenta['titlu']."</h1>";
+	$output .= "<li>Denumirea:".$diploma_de_licenta['denumirea']."</li>";
+	$output .= "<li>Seria:".$diploma_de_licenta['seria']."</li>";
+	$output .= "<li>Numar:".$diploma_de_licenta['numar']."</li>";
+	$output .= "<li>Sesiune:".$diploma_de_licenta['sesiune']."</li>";
+	$output .= "<li>Anul:".$diploma_de_licenta['anul']."</li>";
+	$output .= "<li>Facultate:".$diploma_de_licenta['facultate']."</li>";
+	$output .= "<li>Nume:".$diploma_de_licenta['nume']."</li>";
+	$output .= "<li>Prenume:".$diploma_de_licenta['prenume']."</li>";
+	$output .= "<li>Anul_nasterii:".$diploma_de_licenta['anul_nasterii']."</li>";
+	$output .= "<li>Luna:".$diploma_de_licenta['luna']."</li>";
+	$output .= "<li>Ziua:".$diploma_de_licenta['ziua']."</li>";
+	$output .= "<li>Localitatea:".$diploma_de_licenta['localitatea']."</li>";
+	$output .= "<li>Judetul:".$diploma_de_licenta['judetul']."</li>";
+	$output .= "<li>Tara:".$diploma_de_licenta['tara']."</li>";
+	$output .= "<li>Absolvent:".$diploma_de_licenta['absolvent']."</li>";
+	$output .= "<li>Licentiat:".$diploma_de_licenta['licentiat']."</li>";
+	$output .= "<li>Profilul:".$diploma_de_licenta['profilul']."</li>";
+	$output .= "<li>Specializarea:".$diploma_de_licenta['specializarea']."</li>";
+	$output .= "<li>Durata_studiilor:".$diploma_de_licenta['durata_studiilor']."</li>";
+	$output .= "<li>Director:".$diploma_de_licenta['director']."</li>";
+	$output .= "<li>Secretar_sef:".$diploma_de_licenta['secretar_sef']."</li>";
+	$output .= "<li>Decan:".$diploma_de_licenta['decan']."</li>";
+	$output .= "<li>Numar_criteriu:".$diploma_de_licenta['numar_criteriu']."</li>";
+	$output .= "<li>Proba_scrisa:".$diploma_de_licenta['proba_scrisa']."</li>";
+	$output .= "<li>Proba_practica:".$diploma_de_licenta['proba_practica']."</li>";
+	$output .= "<li>Medie:".$diploma_de_licenta['medie']."</li>";
+
+
+}
+
+$output .="</ul>";
+echo $output;
+
+
+?>

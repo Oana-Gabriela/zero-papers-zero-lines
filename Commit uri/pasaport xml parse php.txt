@@ -1,0 +1,33 @@
+<?php
+
+$xml = simplexml_load_file('pasaport_xml.xml');
+echo "<table>";
+echo "<br>";
+foreach ($xml->children() as $pasaport) {
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "ID"; echo ":"; echo "</b>"; echo $pasaport->id; echo "</td>";"<br>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "TYPE"; echo ":"; echo "</b>"; echo $pasaport->type; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "CODE"; echo ":"; echo "</b>"; echo $pasaport->code; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "SERIE"; echo ":"; echo "</b>"; echo $pasaport->serie; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "LAST NAME"; echo ":"; echo "</b>"; echo $pasaport->last_name; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "FIRST NAME"; echo ":"; echo "</b>"; echo $pasaport->first_name; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "NATIONALITY"; echo ":"; echo "</b>"; echo $pasaport->nationality; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "DATE OF BIRTH(yyyy-mm-dd)"; echo ":"; echo "</b>"; echo $pasaport->date_of_birth; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "SEX"; echo ":"; echo "</b>"; echo $pasaport->sex; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "PLACE OF BIRTH"; echo ":"; echo "</b>"; echo $pasaport->place_of_birth; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "DATE OF RELEASE"; echo ":"; echo "</b>"; echo $pasaport->date_of_release; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "DATE OF EXPIRATION"; echo ":"; echo "</b>"; echo $pasaport->date_of_expiration; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "AUTHORITY"; echo ":"; echo "</b>"; echo $pasaport->authority; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "SEMNATURE"; echo ":"; echo "</b>"; echo $pasaport->semnature; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "HEIGHT(m)"; echo ":"; echo "</b>"; echo $pasaport->height; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "EYES"; echo ":"; echo "</b>"; echo $pasaport->eyes; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "ADRESS"; echo ":"; echo "</b>"; echo $pasaport->adress; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "DATE"; echo ":"; echo "</b>"; echo $pasaport->date; echo "</td>"; 
+	
+
+}
+
+
+echo "</tr>"; 
+echo "</table>";
+
+?>

@@ -1,0 +1,44 @@
+<?php
+
+$xml = simplexml_load_file('diploma_xml.xml');
+echo "<table>";
+
+foreach ($xml->children() as $diploma) {
+
+	
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "SERIE"; echo ":"; echo "</b>"; echo $diploma->serie; echo "</td>";"<br>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "NUMAR"; echo ":"; echo "</b>"; echo $diploma->numar; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "SESIUNE"; echo ":"; echo "</b>"; echo $diploma->sesiune; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "ANUL"; echo ":"; echo "</b>"; echo $diploma->anul; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "FACULTATEA"; echo ":"; echo "</b>"; echo $diploma->facultatea; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "DENUMIRE"; echo ":"; echo "</b>"; echo $diploma->denumire; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "NUME"; echo ":"; echo "</b>"; echo $diploma->nume; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "PRENUME"; echo ":"; echo "</b>"; echo $diploma->prenume; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "ANUL NASTERII"; echo ":"; echo "</b>"; echo $diploma->anul_nasterii; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "LUNA"; echo ":"; echo "</b>"; echo $diploma->luna; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "ZIUA"; echo ":"; echo "</b>"; echo $diploma->ziua; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "LOCALITATEA"; echo ":"; echo "</b>"; echo $diploma->localitatea; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "JUDETUL"; echo ":"; echo "</b>"; echo $diploma->judetul; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "TARA"; echo ":"; echo "</b>"; echo $diploma->tara; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "ABSOLVENT"; echo ":"; echo "</b>"; echo $diploma->absolvent; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "LICENTIAT"; echo ":"; echo "</b>"; echo $diploma->licentiat; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "PROFILUL"; echo ":"; echo "</b>"; echo $diploma->profilul; echo "</td>";
+	echo "<tr>"; echo "<td>"; echo "<b>"; echo "SPECIALIZAREA"; echo ":"; echo "</b>"; echo $diploma->specializarea; echo "</td>"; 
+    echo "<tr>"; echo "<td>"; echo "<b>"; echo "DURATA STUDIILOR"; echo ":"; echo "</b>"; echo $diploma->durata_studiilor; echo "</td>";
+    echo "<tr>"; echo "<td>"; echo "<b>"; echo "DIRECTOR"; echo ":"; echo "</b>"; echo $diploma->director; echo "</td>";
+    echo "<tr>"; echo "<td>"; echo "<b>"; echo "SECRETAR SEF"; echo ":"; echo "</b>"; echo $diploma->secretar_sef; echo "</td>";
+    echo "<tr>"; echo "<td>"; echo "<b>"; echo "DECAN"; echo ":"; echo "</b>"; echo $diploma->decan; echo "</td>";
+    echo "<tr>"; echo "<td>"; echo "<b>"; echo "NUMAR CRITERIU"; echo ":"; echo "</b>"; echo $diploma->numar_criteriu; echo "</td>";
+    echo "<tr>"; echo "<td>"; echo "<b>"; echo "PROBA SCRISA"; echo ":"; echo "</b>"; echo $diploma->proba_scrisa; echo "</td>";
+    echo "<tr>"; echo "<td>"; echo "<b>"; echo "PROBA PRACTICA"; echo ":"; echo "</b>"; echo $diploma->proba_practica; echo "</td>";
+    echo "<tr>"; echo "<td>"; echo "<b>"; echo "MEDIE"; echo ":"; echo "</b>"; echo $diploma->medie; echo "</td>";
+	
+
+
+}
+
+
+echo "</tr>"; 
+echo "</table>";
+
+?>

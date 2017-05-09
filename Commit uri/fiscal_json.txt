@@ -1,0 +1,88 @@
+{
+	"certificat_fiscal":[
+            {
+            	"id":"1",
+            	"nr":"fdsgsg",
+            	"data_eliberarii":"hsdh",
+            	"nr_cerere":"hsdfds",
+            	"data":"shfdhfsh",
+            	"denumirea": "Universitatea din Craiova"  ,
+            	"nume":"Ionescu"  ,
+	            "prenume": "Maria"  ,
+	            "domiciliul_fiscal": "Craiova"  ,
+	            "judetul": "Dolj" ,
+	            "municipiul":  "dshhhhhhhhhsdf " ,  
+	            "strada":" shhsf",
+	            "bloc":"shfffd",
+	            "scara":"ghsh",
+	            "apartament":"gshhggs",
+	            "cod_postal":"shsgssh",
+	            "obligatii_de_plata_principale":"shsgh",
+	            "obligatii_de_plata_accesorii":"shgh",
+	            "sume_de_rambursat":"sghggs"
+
+
+            	
+            
+
+            },
+
+
+
+             {
+             	"id":"2",
+            	"nr":"fdsgsg",
+            	"data_eliberarii":"hsdh",
+            	"nr_cerere":"hsdfds",
+            	"data":"shfdhfsh",
+            	"denumirea": "Universitatea din Craiova"  ,
+            	"nume":"Ionescu"  ,
+	            "prenume": "Maria"  ,
+	            "domiciliul_fiscal": "Craiova"  ,
+	            "judetul": "Dolj" ,
+	            "municipiul":  "dshhhhhhhhhsdf " ,  
+	            "strada":" shhsf",
+	            "bloc":"shfffd",
+	            "scara":"ghsh",
+	            "apartament":"gshhggs",
+	            "cod_postal":"shsgssh",
+	            "obligatii_de_plata_principale":"shsgh",
+	            "obligatii_de_plata_accesorii":"shgh",
+	            "sume_de_rambursat":"sghggs"
+
+
+            	
+            
+
+            },
+
+
+              {
+              	"id":"3",
+            	"nr":"fdsgsg",
+            	"data_eliberarii":"hsdh",
+            	"nr_cerere":"hsdfds",
+            	"data":"shfdhfsh",
+            	"denumirea": "Universitatea din Craiova"  ,
+            	"nume":"Ionescu"  ,
+	            "prenume": "Maria"  ,
+	            "domiciliul_fiscal": "Craiova"  ,
+	            "judetul": "Dolj" ,
+	            "municipiul":  "dshhhhhhhhhsdf " ,  
+	            "strada":" shhsf",
+	            "bloc":"shfffd",
+	            "scara":"ghsh",
+	            "apartament":"gshhggs",
+	            "cod_postal":"shsgssh",
+	            "obligatii_de_plata_principale":"shsgh",
+	            "obligatii_de_plata_accesorii":"shgh",
+	            "sume_de_rambursat":"sghggs"
+
+            	
+            
+
+            }
+	]
+
+
+}

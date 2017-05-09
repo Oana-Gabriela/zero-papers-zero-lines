@@ -1,0 +1,106 @@
+{
+	"diploma_de_licenta":[
+            {
+            	"titlu": "Diploma de Licenta",
+            	"seria": "c" ,
+            	"numar": "4345"  ,
+            	"sesiune": "iulie" ,
+            	"anul":"2017"  ,
+            	"facultate":"Facultatea de Automatica" ,
+            	"denumirea": "Universitatea din Craiova"  ,
+            	"nume":"Ionescu"  ,
+	            "prenume": "Maria"  ,
+	            "anul_nasterii":"1994"   ,
+	            "luna": "05"  ,
+	            "ziua":"10"   ,
+	            "localitatea": "Craiova"  ,
+	            "judetul": "Dolj" ,
+	            "tara": "Romania"  ,
+	            "absolvent": "Facultatea de Automatica"  ,
+	            "licentiat":"Multimedia"  ,
+	            "profilul": "Ingineria Sistemelor"  ,
+	            "specializarea":  "Multimedia" ,
+	            "durata_studiilor": "4" ,
+
+	            "director": "Popescu Alin" ,
+	            "secretar_sef": "Georgescu Anca" ,
+	            "decan": "Iliescu Marian" ,
+
+                "numar_criteriu": "1" ,
+                "proba_scrisa": "8"  ,
+                "proba_practica": "9"  ,
+                "medie": "8.50" 
+
+            },
+
+
+
+            {
+            	"titlu": "Diploma de Licenta",
+              	"seria": "b" ,
+            	"numar": "3522"  ,
+            	"sesiune": "iulie" ,
+            	"anul":"2015"  ,
+            	"facultate":"Facultatea de Drept" ,
+            	"denumirea": "Universitatea din Craiova"  ,
+            	"nume":"Suciu"  ,
+	            "prenume": "Dana"  ,
+	            "anul_nasterii":"1994"   ,
+	            "luna": "10"  ,
+	            "ziua":"15"   ,
+	            "localitatea": "Craiova"  ,
+	            "judetul": "Dolj" ,
+	            "tara": "Romania"  ,
+	            "absolvent": "Facultatea de Drept"  ,
+	            "licentiat":"Drept Civil"  ,
+	            "profilul": "Legislatie"  ,
+	            "specializarea":  "Drept Civil" ,
+	            "durata_studiilor": "3" ,
+
+	            "director": "Popescu Alin" ,
+	            "secretar_sef": "Georgescu Anca" ,
+	            "decan": "Iliescu Marian" ,
+
+                "numar_criteriu": "1" ,
+                "proba_scrisa": "8"  ,
+                "proba_practica": "9"  ,
+                "medie": "8.50"   
+
+            },
+
+
+            {
+            	"titlu": "Diploma de Licenta",
+            	"seria": "v" ,
+            	"numar": "25535"  ,
+            	"sesiune": "iulie" ,
+            	"anul":"2017"  ,
+            	"facultate":"Facultatea de Automatica" ,
+            	"denumirea": "Universitatea din Craiova"  ,
+            	"nume":"Popa"  ,
+	            "prenume": "Narcisa"  ,
+	            "anul_nasterii":"1994"   ,
+	            "luna": "01"  ,
+	            "ziua":"21"   ,
+	            "localitatea": "Craiova"  ,
+	            "judetul": "Dolj" ,
+	            "tara": "Romania"  ,
+	            "absolvent": "Facultatea de Automatica"  ,
+	            "licentiat":"Multimedia"  ,
+	            "profilul": "Ingineria Sistemelor"  ,
+	            "specializarea":  "Multimedia" ,
+	            "durata_studiilor": "4" ,
+
+	            "director": "Popescu Alin" ,
+	            "secretar_sef": "Georgescu Anca" ,
+	            "decan": "Iliescu Marian" ,
+
+                "numar_criteriu": "1" ,
+                "proba_scrisa": "8"  ,
+                "proba_practica": "9"  ,
+                "medie": "8.50" 
+            }
+	]
+
+
+}

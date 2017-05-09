@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diploma>
+	<diploma_de_licenta>	
+		<serie>153</serie>
+		<numar>23</numar>
+		<sesiune>IULIE</sesiune>
+		<anul>2017</anul>
+		<facultatea>AUTOMATICA</facultatea>
+	</diploma_de_licenta>
+	<universitate>
+		<denumire>UNIVERSITATEA DIN CRAIOVA</denumire>
+	</universitate>
+<date>
+	<nume>POPESCU</nume>
+	<prenume>IRINA</prenume>
+	<anul_nasterii>1994</anul_nasterii>
+	<luna>08</luna>
+	<ziua>14</ziua>
+	<localitatea>CRAIOVA</localitatea>
+	<judetul>DOLJ</judetul>
+	<tara>ROMANIA</tara>
+	<absolvent>UNIVERISTATEA DIN CRAIOVA</absolvent>
+</date>
+<titlu>
+	<licentiat>SISTEME MULTIMEDIA</licentiat>
+	<profilul>INGINERIA SISTEMELOR MULTIMEDIA</profilul>
+	<specializarea>MULTIMEDIA</specializarea>
+	<durata_studiilor>4</durata_studiilor>
+
+</titlu>
+<conducere>
+	<director>GEORGESCU MARIAN</director>
+	<scretar_sef>FLOREA RODICA</scretar_sef>
+	<decan>Dan SELISTEANU</decan>
+
+</conducere>
+
+<rezultate>
+	<numar_criteriu>1</numar_criteriu>
+	<proba_scrisa>9</proba_scrisa>
+	<proba_practica>10</proba_practica>
+	<medie>9.5</medie>
+
+</rezultate>
+</diploma>
